@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BluetoothActivity">
+
+    <Button
+        android:id="@+id/onbtn"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#D7673AB7"
+        android:text="ON"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/offbtn"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#D7673AB7"
+        android:text="OFF"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onbtn" />
+
+    <Button
+        android:id="@+id/connectbtn"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#D7673AB7"
+        android:text="CONNECT"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/offbtn" />
+
+    <Button
+        android:id="@+id/disconnectbtn"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#D7673AB7"
+        android:text="DISCONNECT"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/connectbtn" />
+
+    <Button
+        android:id="@+id/syncbtn"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#D7673AB7"
+        android:text="SYNC"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/disconnectbtn" />
+
+    <TextView
+        android:id="@+id/text_BTtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Bluetooth"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Koala Scope</string>
+    <string name="text_averagebmp">Average BMP</string>
+    <string name="text_recordings">Recordings</string>
+    <string name="text_patients">Patients</string>
+    <string name="edit_name">Full Name</string>
+    <string name="edit_age">Age (Months)</string>
+    <string name="edit_sex">Sex</string>
+    <string name="edit_dateseen">Date Seen</string>
+    <string name="button_save">Save</string>
+    <string name="text_name">Name</string>
+    <string name="text_age">Age</string>
+    <string name="text_sex">Sex</string>
+    <string name="text_dateseen">Date Seen</string>
+    <string name="text_recname">Recording Name</string>
+    <string name="text_recpatname">Patient Name</string>
+    <string name="delete_patient_button"></string>
+    <string name="edit_notes">Tap to edit</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>

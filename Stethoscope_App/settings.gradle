@@ -1,0 +1,2 @@
+rootProject.name='Stethoscope_App'
+include ':app'
